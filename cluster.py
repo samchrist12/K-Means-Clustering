@@ -19,6 +19,7 @@ def euclidian(x1, y1, x2, y2):
     S = math.sqrt(( ( float(x1) - y1 )**2 )+( ( float(x2) - y2 )**2 ))
     return S
 
+#buka file dataset untuk diolah
 with open('videogames.csv') as file:
     for line in file:
         count = count + 1
