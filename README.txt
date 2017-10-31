@@ -1,6 +1,9 @@
-# K-Means-Clustering
-Clustering Dataset Using K-Means Algorithm Python
+Clustering - Video Games -  Data - With - K-Means
 
-2015101497 - Ferdinand
-2015101577 - Samuel Christian
-2015102005 - Larasati
+An exampe of K-Means Clustering Algorithm to Video Games data
+1. run cluster.py to display clustering result of videogames.csv
+
+Created by : 
+Ferdinand
+Samuel Christian
+Larasati
