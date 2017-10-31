@@ -119,7 +119,7 @@ while c1 != new_c1 and c2 != new_c2 and c3 != new_c3:
     new_c3.append(float(temp_osl3) / len(c3cluster))
     new_c3.append(float(temp_gsl3) / len(c3cluster))
 
-#Output    
+#Output Program
 print "CLUSTERING DONE"
 print
 print "JUMLAH ITERASI = ", hitung
