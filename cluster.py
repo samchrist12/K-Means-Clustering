@@ -3,9 +3,9 @@ import math
 c1=[7.55,50.00] #cluster penjualan tinggi
 c2=[5.25,28.75] #cluster penjualan menengah
 c3=[3.20,14.80] #cluster penjualan rendah
-new_c1=[]
-new_c2=[]
-new_c3=[]
+new_c1=[] #untuk menyimpan nilai baru c1
+new_c2=[] #untuk menyimpan nilai baru c2
+new_c3=[] #untuk menyimpan nilai baru c3
 dicdata={} #Untuk menampung data yang menjadi parameter perhitungan
 c1cluster=[]
 c2cluster=[]
@@ -119,7 +119,7 @@ while c1 != new_c1 and c2 != new_c2 and c3 != new_c3:
     new_c3.append(float(temp_osl3) / len(c3cluster))
     new_c3.append(float(temp_gsl3) / len(c3cluster))
 
-#Output Program
+#Output Program    
 print "CLUSTERING DONE"
 print
 print "JUMLAH ITERASI = ", hitung
